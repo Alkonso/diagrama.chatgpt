@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Ejemplo de Página Web en XML</title>
+</head>
+<body>
+    <header>
+        <h1>Mi Página Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#acerca">Acerca de</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="inicio">
+            <h2>Bienvenido</h2>
+            <p>Bienvenido a mi página web en XML. Aquí encontrarás información sobre...</p>
+        </section>
+        
+        <section id="acerca">
+            <h2>Acerca de</h2>
+            <p>Esta sección proporciona información sobre...</p>
+        </section>
+        
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Puedes ponerte en contacto con nosotros en...</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Derechos de autor &copy; 2024 Mi Empresa</p>
+    </footer>
+</body>
+</html>
